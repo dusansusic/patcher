@@ -50,8 +50,6 @@ cd ../../vendor/cm
 git reset --hard && git clean -f -d
 wget -q https://github.com/sultanxda/android_vendor_cm/commit/c32045e4a52723c3ccfd59266bd35fab6a4c0468.patch
 patch -p1 < c32045e4a52723c3ccfd59266bd35fab6a4c0468.patch
-wget -q https://github.com/sultanxda/android_vendor_cm/commit/94d1ab513bb120811fc5280e5cdb33c4d7ee3f33.patch #add gello
-patch -p1 < 94d1ab513bb120811fc5280e5cdb33c4d7ee3f33.patch
 git clean -f -d
 
 # vendor/cmsdk:
