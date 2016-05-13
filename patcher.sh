@@ -59,11 +59,4 @@ wget -q https://github.com/sultanxda/cm_platform_sdk/commit/2d9efe7427cf3d8a8134
 patch -p1 -s < 2d9efe7427cf3d8a8134a5652192b5266a7335d1.patch
 git clean -f -d
 
-#device/oneplus/bacon 
-cd ../../device/oneplus/bacon
-git reset --hard && git clean -f -d
-wget -q https://github.com/CyanogenMod/android_device_oneplus_bacon/commit/dd9f1a3903edd4a11efa6e7008d03ef5407096af.patch #add gello
-patch -p1 -s < dd9f1a3903edd4a11efa6e7008d03ef5407096af.patch
-git clean -f -d
-
 cd ../..
