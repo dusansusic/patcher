@@ -61,6 +61,7 @@ git clean -f -d
 
 #device/bacon
 cd ../../device/oneplus/bacon
+pwd
 git reset --hard && git clean -f -d
 wget -q https://github.com/CyanogenMod/android_device_oneplus_bacon/commit/17eecab7b3d30613c159cf2d522eacf43b23d7df.patch
 patch -p1 -s < 17eecab7b3d30613c159cf2d522eacf43b23d7df.patch
