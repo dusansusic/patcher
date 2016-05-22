@@ -64,12 +64,15 @@ cd ../../device/oneplus/bacon
 git reset --hard && git clean -f -d
 wget -q https://github.com/CyanogenMod/android_device_oneplus_bacon/commit/17eecab7b3d30613c159cf2d522eacf43b23d7df.patch
 patch -p1 -s < 17eecab7b3d30613c159cf2d522eacf43b23d7df.patch
+
 wget -q https://github.com/CyanogenMod/android_device_oneplus_bacon/commit/06b73aceac504c9e61282b201b29e6b7f6781dea.patch
 patch -p1 -s < 06b73aceac504c9e61282b201b29e6b7f6781dea.patch
+
 wget -q https://github.com/CyanogenMod/android_device_oneplus_bacon/commit/018298e831be2a2a8a7a7daecc6cdb3b0a161f29.patch
 patch -p1 -s < 018298e831be2a2a8a7a7daecc6cdb3b0a161f29.patch
+
 wget -q https://github.com/CyanogenMod/android_device_oneplus_bacon/commit/f33aa70dc5f86bf06445b736638d4347deab99d8.patch
 patch -p1 -s < f33aa70dc5f86bf06445b736638d4347deab99d8.patch
 git clean -f -d
 
-cd ../../..
+cd ../..

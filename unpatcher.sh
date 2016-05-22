@@ -37,9 +37,4 @@ cd ../../vendor/cmsdk
 git reset --hard
 git clean -f -d
 
-# vendor/cmsdk:
-cd ../../device/oneplus/bacon
-git reset --hard
-git clean -f -d
-
-cd ../../..
+cd ../..
