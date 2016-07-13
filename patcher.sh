@@ -11,6 +11,7 @@ wget -q https://github.com/CyanogenMod/android_build/commit/c1b06c9b6c7b8ed68403
 patch -p1 -s < c1b06c9b6c7b8ed684033894059a2a859f85e708.patch
 git clean -f -d
 
+
 # frameworks/av:
 cd ../frameworks/av
 git reset --hard && git clean -f -d
@@ -45,4 +46,12 @@ wget -q https://github.com/sultanxda/android_system_core/commit/c520a4af51d10116
 patch -p1 -s < c520a4af51d1011644541a53925c77d9addedf32.patch
 git clean -f -d
 
-cd ../..
+#device/oneplus/bacon
+cd ../../device/oneplus/bacon
+git reset --hard && git clean -f -d
+wget -q https://github.com/CyanogenMod/android_device_oneplus_bacon/commit/16cac946c51992b2bbea657dcbef3e74e98bad11.patch
+patch -p1 -s < 16cac946c51992b2bbea657dcbef3e74e98bad11.patch
+git clean -f -d
+
+cd ../../..
+
