@@ -27,8 +27,4 @@ cd ../../../system/core
 git reset --hard
 git clean -f -d
 
-cd ../../device/oneplus/bacon
-git reset --hard
-git clean -f -d
-
-cd ../../..
+cd ../..
